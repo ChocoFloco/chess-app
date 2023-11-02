@@ -1,13 +1,14 @@
 import firebase from 'firebase';
 import "firebase/firestore"
 const firebaseConfig = {
-    apiKey: "AIzaSyCsD2RHT8hhMwu10ZD_9iv4n1Tgu0j2bIw",
-    authDomain: "chess-app-ae7cb.firebaseapp.com",
-    projectId: "chess-app-ae7cb",
-    storageBucket: "chess-app-ae7cb.appspot.com",
-    messagingSenderId: "1034709476825",
-    appId: "1:1034709476825:web:44290a744192163d1065c8"
-};
+    apiKey: "AIzaSyC7mybMry1LzLSlpsmXMlN_9LbcPogoW2g",
+    authDomain: "inverseprivate-304e0.firebaseapp.com",
+    projectId: "inverseprivate-304e0",
+    storageBucket: "inverseprivate-304e0.appspot.com",
+    messagingSenderId: "246587992179",
+    appId: "1:246587992179:web:a5a5fc429c9e9c7d2ca206",
+    measurementId: "G-TGV55BWQJW"
+  };
 
 const app = !firebase.apps.length 
 ? firebase.initializeApp(firebaseConfig) 
